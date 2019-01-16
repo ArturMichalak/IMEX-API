@@ -16,7 +16,7 @@ GET Header
 
 POST Header
 
-* Nowy objekt: kierowca **{driver}**, zamówienie **{order}**, ciężarówka **{truck}** lub trasa **{route}**.  
+* Nowy obiekt: kierowca **{driver}**, zamówienie **{order}**, ciężarówka **{truck}** lub trasa **{route}**.  
 `https://example.com/{obiekt}`
 
 GET/PUT Header
