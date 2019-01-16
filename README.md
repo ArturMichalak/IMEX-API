@@ -8,7 +8,7 @@ GET Header
 * Lista kierowcówców **{drivers}**, zamówień **{orders}** lub ciężarówek **{trucks}**.  
 `https://example.com/{drivers/orders/trucks}`  
 
-* Lista zależna od informacji z działaniami **{equals}**, **{in}**, **{smaller-than}** i **{bigger-than}** na zbiorach.  
+* Lista zależna od informacji z działaniami **{equals}**, **{in}**, **{smaller-than}** i **{bigger-than}** określonymi na zbiorach.  
 `https://example.com/{drivers/orders/trucks}/that-have-{własność}-{equals/in/less-than/greater-than}-{wartość}`
 
 * Lista zależna od kilku informacji ze wzorca powyżej połączonymi słowami wykluczających **{and}** lub sumujących **{or}**.  
