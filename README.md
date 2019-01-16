@@ -12,7 +12,7 @@ GET Header
 `https://example.com/{obiekty}/that-have-{własność}-{działanie}-{wartość}`
 
 * Lista zależna od kilku informacji ze wzorca powyżej połączonymi słowami wykluczających **{and}** lub sumujących **{or}**.  
-`https://example.com/{obiekty}/that-have-{informacja}-{and/or}-{informacja}`
+`https://example.com/{obiekty}/that-have-{informacja}-{łącznik}-{informacja}`
 
 POST Header
 
@@ -25,4 +25,4 @@ GET/PUT Header
 `https://example.com/{obiekt}/that-have-{własność}-{działanie}-{wartość}`
 
 * Pierwszy odnaleziony po kilku informacjach.  
-`https://example.com/{obiekt}/that-have-{that-have}-{and/or}-{that-have}`
+`https://example.com/{obiekt}/that-have-{that-have}-{łącznik}-{that-have}`
