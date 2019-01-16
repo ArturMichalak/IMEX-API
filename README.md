@@ -11,7 +11,7 @@ GET Header
 * Lista zależna od informacji z działaniami na zbiorach **{equals}**, **{in}**, **{smaller-than}**, **{bigger-than}**.  
 `https://example.com/{drivers/orders/trucks}/that-have-{własność}-{equals/in/smaller-than/bigger-than}-{wartość}`
 
-* Lista zależna od kilku informacji ze wzorca powyżej połączonymi słowami wykluczających **and** lub sumujących **or**.  
+* Lista zależna od kilku informacji ze wzorca powyżej połączonymi słowami wykluczających **{and}** lub sumujących **{or}**.  
 `https://example.com/{drivers/orders/trucks}/that-have-{informacja}-{and/or}-{informacja}`
 
 POST Header
