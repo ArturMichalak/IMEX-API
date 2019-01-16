@@ -14,6 +14,13 @@ GET Header
 * Lista zależna od kilku informacji ze wzorca powyżej połączonymi słowami wykluczających **and** lub sumujących **or**.  
 `https://example.com/{drivers/orders/trucks}/that-have-{informacja}-{and/or}-{informacja}`
 
+POST Header
+
+* Nowy kierowca **{driver}**, zamówienie **{order}**, ciężarówka **{truck}**.  
+`https://example.com/{driver/order/truck}`
+
+GET/PUT Header
+
 * Pierwszy kierowca **{driver}**, zamówienie **{order}**, ciężarówka **{truck}** odnalezione po informacji.  
 `https://example.com/{driver/order/truck}/that-have-{własność}-{equal-to/in/smaller-than/bigger-than}-{wartość}`
 
