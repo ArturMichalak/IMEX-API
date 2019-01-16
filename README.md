@@ -5,7 +5,7 @@
 
 GET Header
 
-* Lista kierowcówców **{drivers}**, zamówień **{orders}**, ciężarówek **{trucks}**.  
+* Lista kierowcówców **{drivers}**, zamówień **{orders}** lub ciężarówek **{trucks}**.  
 `https://example.com/{drivers/orders/trucks}`  
 
 * Lista zależna od informacji z działaniami na zbiorach **{equals}**, **{in}**, **{smaller-than}**, **{bigger-than}**.  
@@ -16,12 +16,12 @@ GET Header
 
 POST Header
 
-* Nowy kierowca **{driver}**, zamówienie **{order}**, ciężarówka **{truck}**.  
+* Nowy kierowca **{driver}**, zamówienie **{order}** lub ciężarówka **{truck}**.  
 `https://example.com/{driver/order/truck}`
 
 GET/PUT Header
 
-* Pierwszy kierowca **{driver}**, zamówienie **{order}**, ciężarówka **{truck}** odnalezione po informacji.  
+* Pierwszy kierowca **{driver}**, zamówienie **{order}** lub ciężarówka **{truck}** odnalezione po informacji.  
 `https://example.com/{driver/order/truck}/that-have-{własność}-{equals/in/less-than/greater-than}-{wartość}`
 
 * Pierwszy odnaleziony po kilku informacjach.  
