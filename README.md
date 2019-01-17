@@ -1,8 +1,6 @@
-> # IMEX-API
-  
-### Wzory zapytań
+> # Wzory zapytań IMEX-API
 
-GET Header
+### GET Header
 
 Lista obiektów: kierowcówców **{drivers}**, zamówień **{orders}**, ciężarówek **{trucks}** lub tras **{routes}**.  
 ```
@@ -19,14 +17,14 @@ Lista zależna od kilku informacji ze wzorca powyżej połączonymi słowami wyk
 https://example.com/{obiekty}/that-have-{informacja}-{łącznik}-{informacja}
 ```
 
-POST Header
+### POST Header
 
 Nowy obiekt: kierowca **{driver}**, zamówienie **{order}**, ciężarówka **{truck}** lub trasa **{route}**.  
 ```
 https://example.com/{obiekt}
 ```
 
-GET/PUT Header
+### GET/PUT Header
 
 Pierwszy obiekt odnaleziony po informacji.  
 ```
