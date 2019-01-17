@@ -6,7 +6,9 @@
 GET Header
 
 * Lista obiektów: kierowcówców **{drivers}**, zamówień **{orders}**, ciężarówek **{trucks}** lub tras **{routes}**.  
-`https://example.com/{obiekty}`  
+```
+https://example.com/{obiekty}
+```  
 
 * Lista zależna od informacji z działaniami **{equals}**, **{in}**, **{less-than}** i **{greater-than}** określonymi na zbiorach.  
 `https://example.com/{obiekty}/that-have-{własność}-{działanie}-{wartość}`
